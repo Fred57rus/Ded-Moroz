@@ -9,7 +9,8 @@
   display: flex;
   flex-direction: column;
   gap: 29px;
-  height: 740px;
+  max-height: 740px;
+  padding: 0 29% 22% 29%;
 }
 
 .cover__background::after {
