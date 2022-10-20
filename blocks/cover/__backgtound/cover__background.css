@@ -1,6 +1,5 @@
 .cover__background {
   position: relative;
-  display: block;
   text-decoration: none;
   background-image: url(../../../images/cover.jpg);
   background-size: cover;
