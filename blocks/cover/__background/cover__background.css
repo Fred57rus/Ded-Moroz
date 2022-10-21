@@ -39,11 +39,14 @@
 @media(max-width: 768px) {
   .cover__background {
     height: 480px;
+    padding: 0 16% 2% 16%;
   }
 }
 
 @media(max-width: 320px) {
   .cover__background {
     height: 200px;
+    padding: 0;
+    gap: 9px;
   }
 }
