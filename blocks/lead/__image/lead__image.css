@@ -1,24 +1,25 @@
 .lead__image {
-    height: 615px;
+    height: 100%;
+    width: 100%;
     margin: 0 auto 8px;
     background-size: contain;
     background-repeat: no-repeat;
   }
-
+/*
 @media(max-width: 1024px) {
   .lead__image {
-    height: 580px;
+    max-height: 580px;
   }
 }
 
 @media(max-width: 768px) {
   .lead__image {
-    height: 480px;
+    max-height: 480px;
   }
 }
 
 @media(max-width: 320px) {
   .lead__image {
-    height: 200px;
+    max-height: 200px;
   }
-}
+}*/
