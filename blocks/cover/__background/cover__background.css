@@ -1,5 +1,5 @@
 .cover__background {
-  max-height: 740px;
+  min-height: 198px;
   position: relative;
   text-decoration: none;
   background-image: url(../../../images/cover.jpg);
@@ -11,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 30px;
   padding: 245px 312px;
 }
 
@@ -34,18 +34,23 @@
 
 @media(max-width: 1024px) {
   .cover__background {
-    max-height: 640px;
-    padding: 245px 195px;
+    padding: 194px 174px;
   }
 }
 
 @media(max-width: 768px) {
   .cover__background {
-    max-height: 480px;
-    padding: 0 16% 2% 16%;
+    padding: 0 16% 16% 16%;
   }
 }
 
+
+@media(max-width: 320px) {
+  .cover__background {
+    padding: 0;
+    gap: 16px;
+  }
+}
 /*
 
 .cover__background {

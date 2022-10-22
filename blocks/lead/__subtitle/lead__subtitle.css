@@ -3,7 +3,7 @@
   margin: 32px auto 64px;
   text-align: center;
   color: #FFFFFF;
-  font-family: "Inter" Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;    
@@ -15,7 +15,14 @@ margin-bottom: 56px;
   }
 }
 
-@media(max-width: 320px) {
+@media(max-width: 400px) {
+  .lead__subtitle {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media(max-width: 340px) {
   .lead__subtitle {
     font-size: 16px;
     line-height: 20px;

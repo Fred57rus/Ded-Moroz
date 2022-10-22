@@ -1,7 +1,7 @@
 .lead__image {
     height: 100%;
     width: 100%;
-    margin: 0 auto 8px;
+    margin: 0 auto 6px;
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -11,13 +11,13 @@
     max-height: 580px;
   }
 }
-
+*/
 @media(max-width: 768px) {
   .lead__image {
-    max-height: 480px;
+    margin-bottom: 16px;
   }
 }
-
+/*
 @media(max-width: 320px) {
   .lead__image {
     max-height: 200px;
