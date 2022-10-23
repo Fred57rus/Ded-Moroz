@@ -34,13 +34,13 @@
 
 @media(max-width: 1024px) {
   .cover__background {
-    padding: 194px 174px;
+    padding: 196px 180px;
   }
 }
 
 @media(max-width: 768px) {
   .cover__background {
-    padding: 0 16% 16% 16%;
+    padding: 115px 100px;
   }
 }
 
