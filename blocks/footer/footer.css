@@ -14,14 +14,9 @@
 
 @media(max-width: 768px) {
   .footer {
-    max-width: 720px;
-  }
-}
-
-@media(max-width: 320px) {
-  .footer {
     margin-left: 16px;
     max-width: 300px;
     flex-direction: column;
   }
 }
+
