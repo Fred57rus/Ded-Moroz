@@ -8,15 +8,10 @@
 
 @media(max-width: 1024px) {
   .footer {
-    max-width: 928px;
-  }
-}
-
-@media(max-width: 768px) {
-  .footer {
     margin-left: 16px;
     max-width: 300px;
     flex-direction: column;
   }
 }
+
 
